@@ -1,0 +1,144 @@
+
+body
+{
+	margin: 20px;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url('office.jpg');
+	background-size: cover;
+}
+
+.login
+{
+    width: 350px; 
+    height: 400px; 
+    top: 15%;
+    left: 40%;
+    position: absolute;
+    padding: 10;
+    color: black;
+    text-align: center;
+    border-style:solid;
+    border-color: solid black;
+    border-radius: 50px;
+    border-width: 5px;
+    background-image: url('fieldset.jpg');
+	background-size: cover;
+}
+
+#id
+{
+	padding: 10px;
+	margin: 20px;
+	border-color: transparent;
+	border-radius: 25px;
+}
+
+.menu
+{
+	padding: 10px;
+	margin: 20px;
+	border: 20px;
+	border-color: transparent;
+	border-radius: 25px;
+	background-color: white;
+}
+
+ul li
+{
+	padding: 10px;
+	margin: 10px;
+	border: 10px;
+}
+
+fieldset
+{
+	background-image: url('black11.png');
+	background-size: cover;
+}
+
+legend
+{
+	background: linear-gradient(to bottom, 	crimson 50%, lightseagreen 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+	display: block;
+	background-color: white;
+	color: navy;
+	width: 100%;
+	height: 60px;
+	border: 10px;
+	border-radius: 10px;
+}
+
+nav ul li{
+	padding: 20px;
+	margin: 0px;
+	float: left;
+}
+
+nav ul li :hover{
+	background-color: navy;
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+nav ul li a:hover{
+	background-color: navy;
+	color: white;	
+}
+
+button 
+{
+background:white ; 
+color: blue; 
+width: 100px; 
+height: 30px; 
+border-radius: 5px;
+}
+
+.dropbtn , .dropbtn2 , .dropbtn3 , .dropbtn4 , .dropbtn5 , .dropbtn6 , .dropbtn7 , .dropbtn8 , .dropbtn9 {
+  background-color: #2B2D30;
+  background-clip: 100px;
+  color: white;
+  padding: 16px;
+  font-size:16px;
+  border: solid black;
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.dropbtn:hover{
+  background-color: #ABABAC;
+  background-clip: 100px;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: silver;
+}
+
+.show {display: block;}
